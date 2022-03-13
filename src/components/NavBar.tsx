@@ -13,7 +13,7 @@ export default function NavBar() {
           md:py-0
           px-4
           text-lg text-gray-700
-          bg-blue-500`}
+          bg-gray-400`}
       >
         <Logo />
 
