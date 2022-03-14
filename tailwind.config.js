@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: ["tailwindcss", "postcss-preset-env"],
+  fontFamily: {
+    'Open Sans': ['Open Sans'],
+  },
 };

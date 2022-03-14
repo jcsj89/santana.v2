@@ -10,16 +10,19 @@ export default function NavBar() {
           flex-wrap
           items-center
           justify-center
-          md:justify-around
+          md:justify-evenly
           w-screen
           py-2
-          md:py-0          
-          text-lg text-zinc-800
+          gap-1
+          md:py-6          
+          text-lg 
           bg-gray-100`}
       >
-        <Logo />
+        <div className="flex w-64 justify-center">
+          <Logo />
+        </div>
 
-        <div className="flex flex-wrap justify-center items-center">
+        <div className="flex flex-wrap justify-center items-center py-4 sm:py-0">
           <NavBarItem link="/" name="Home" />
           <NavBarItem link="/produtos" name="Produtos" />
           <NavBarItem link="/sobre" name="Sobre" />
