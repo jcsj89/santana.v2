@@ -7,12 +7,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
-      <HeadPage />
-      <div className="flex flex-col items-center h-screen">
-        <NavBar />
-        <h1 className="underline">Hello world!</h1>
-      </div>
-      <Footer />
+      
+      <h1>ola</h1>
     </>
   );
 }

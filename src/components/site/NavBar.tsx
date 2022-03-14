@@ -6,17 +6,18 @@ export default function NavBar() {
     <>
       <div
         className={`
-          flex 
-          flex-wrap
-          items-center
-          justify-center
-          md:justify-evenly
-          w-screen
-          py-2
-          gap-1
-          md:py-6          
-          text-lg 
-          bg-gray-100`}
+        flex 
+        flex-wrap
+        items-center
+        justify-center
+        w-screen
+        py-2
+        mb-1          
+        text-lg 
+        bg-gray-50          
+        md:py-6          
+        md:justify-evenly
+          `}
       >
         <div className="flex w-64 justify-center">
           <Logo />
