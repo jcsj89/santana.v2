@@ -5,9 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container: {
+      center: true,
+    },
   },
   plugins: ["tailwindcss", "postcss-preset-env"],
   fontFamily: {
-    'Open Sans': ['Open Sans'],
+    "Open Sans": ["Open Sans"],
   },
 };
