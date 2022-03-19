@@ -1,3 +1,4 @@
+
 export default function Footer() {
   return (
     <div className="flex items-center justify-center p-9 text-xl text-white bg-orange-400">
@@ -5,3 +6,4 @@ export default function Footer() {
     </div>
   );
 }
+

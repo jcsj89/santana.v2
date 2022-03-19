@@ -8,13 +8,16 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <HeadPage />
-      <div className="flex flex-col items-center h-screen">
+      <div className="flex flex-col items-center min-h-screen">
+        <div className="flex flex-col flex-grow w-full">
         <MiniNavBar />
         <NavBar />
         <Component {...pageProps} />
+
+        </div>
+      <Footer />
       </div>
 
-      <Footer />
     </>
   );
 }
